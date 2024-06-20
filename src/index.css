@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.p-chips {
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+.p-inputtext {
+    height: 40px !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+}
+.p-inputtext > li {
+    line-height: 10px !important;
+}
