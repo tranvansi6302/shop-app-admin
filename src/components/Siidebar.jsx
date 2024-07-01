@@ -20,11 +20,26 @@ export default function Asidebar() {
         >
             <Box sx={{ mt: 2 }}>
                 <ListItemButton>
+                    <Link style={{ textDecoration: 'none' }} to='/admin/categories'>
+                        <ListItemText primary='Quản lý danh mục sản phẩm' />
+                    </Link>
+                </ListItemButton>
+            </Box>
+            <Box sx={{ mt: 2 }}>
+                <ListItemButton>
+                    <Link style={{ textDecoration: 'none' }} to='/admin/brands'>
+                        <ListItemText primary='Quản lý thương hiệu sản phẩm' />
+                    </Link>
+                </ListItemButton>
+            </Box>
+            <Box sx={{ mt: 2 }}>
+                <ListItemButton>
                     <Link style={{ textDecoration: 'none' }} to='/admin/products'>
                         <ListItemText primary='Quản lý sản phẩm' />
                     </Link>
                 </ListItemButton>
             </Box>
+            
         </List>
     )
 }
